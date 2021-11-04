@@ -1,11 +1,11 @@
-# HW_product_recycleview
+# HW product Recycleview
 
 The Home Work has one part to be delievered before sunday 9AM: 
 
 ----
 ## Part I
 #### Create new application that display a list of product. Every	element has a productImage, productName, productPrice, isVip and quantityNumber.
-#### If the isVip is true then	display the star image else hide it if the user click on the button then check if the quantityNumber more then 0 open new activity and display the product’s name else display a toast with “the product is not available right now”
+#### If the isVip is true then	display the star image else hide it. If the user click on the button then check if the quantityNumber more then 0 open new activity and display the product’s name else display a toast with “the product is not available right now”
 <br />
 <br />
 
@@ -48,8 +48,6 @@ The product’s information
       quantityNumber: 36
 ```
 
-final result
+## Final result
 
-![Screenshot](screenshot.png)
-
-
+<img src="https://raw.githubusercontent.com/HussainAlsadun/HW_product_recycleview/master/app/src/main/res/drawable/final_result.png" width="200"  />
