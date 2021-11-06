@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/reems/AndroidStudioProjects/HW_product_recycleview__/app/src/main/res/layout/activity_main.xml" value="0.11322188449848024" />
+        <entry key="..\:/Users/reems/AndroidStudioProjects/HW_product_recycleview__/app/src/main/res/layout/activity_product_page.xml" value="0.11322188449848024" />
+        <entry key="..\:/Users/reems/AndroidStudioProjects/HW_product_recycleview__/app/src/main/res/layout/item_product_list.xml" value="0.11322188449848024" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.905940594059406" />
       </map>
     </option>
