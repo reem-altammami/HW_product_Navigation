@@ -1,7 +1,6 @@
-package adapter
+package com.example.hw_product_recycleview.adapter
 
 import android.content.Context
-import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,11 +8,11 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
-import androidx.core.view.isVisible
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
-import com.example.hw_product_recycleview.ProductPageActivity
+import com.example.hw_product_recycleview.ProductListFragmentDirections
 import com.example.hw_product_recycleview.R
-import model.Product
+import com.example.hw_product_recycleview.model.Product
 
 class ProductAdapter (val context:Context, val dataset:List<Product>):RecyclerView.Adapter<ProductAdapter.ProductViewHolder>(){
     class ProductViewHolder(view : View): RecyclerView.ViewHolder(view){
@@ -40,10 +39,8 @@ class ProductAdapter (val context:Context, val dataset:List<Product>):RecyclerVi
         }
         holder.productQuantity.setOnClickListener {
             if (item.quantityNumber>0){
-                val context = holder.itemView.context
-                val intent = Intent(context,ProductPageActivity::class.java)
-                intent.putExtra(ProductPageActivity.productName,item.name)
-                context.startActivity(intent)
+                val action = ProductListFragmentDirections.actionProductListFragmentToProductNameFragment(item.name)
+                holder.productQuantity.findNavController().navigate(action)
             } else{
                 val toast = Toast.makeText(context, "This product is not available right now", Toast.LENGTH_SHORT)
                 toast.show()

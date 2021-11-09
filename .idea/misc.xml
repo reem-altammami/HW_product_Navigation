@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidProject/HW_product_navigation/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/HW_product_navigation/app/src/main/res/layout/activity_product_page.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/HW_product_navigation/app/src/main/res/layout/item_product_list.xml" value="0.1" />
+        <entry key="..\:/Users/reems/AndroidStudioProjects/HW_product_navigation/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/reems/AndroidStudioProjects/HW_product_navigation/app/src/main/res/layout/activity_product_page.xml" value="0.1" />
+        <entry key="..\:/Users/reems/AndroidStudioProjects/HW_product_navigation/app/src/main/res/layout/fragment_product_list.xml" value="0.1" />
+        <entry key="..\:/Users/reems/AndroidStudioProjects/HW_product_navigation/app/src/main/res/layout/fragment_product_name.xml" value="0.2857142857142857" />
         <entry key="..\:/Users/reems/AndroidStudioProjects/HW_product_recycleview__/app/src/main/res/layout/activity_main.xml" value="0.11322188449848024" />
         <entry key="..\:/Users/reems/AndroidStudioProjects/HW_product_recycleview__/app/src/main/res/layout/activity_product_page.xml" value="0.11322188449848024" />
         <entry key="..\:/Users/reems/AndroidStudioProjects/HW_product_recycleview__/app/src/main/res/layout/item_product_list.xml" value="0.11322188449848024" />

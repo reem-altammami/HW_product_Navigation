@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/productListFragment">
+
+    <fragment
+        android:id="@+id/productNameFragment"
+        android:name="com.example.hw_product_recycleview.ProductNameFragment"
+        android:label="Product"
+        tools:layout="@layout/fragment_product_name">
+        <argument
+            android:name="name"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/productListFragment"
+        android:name="com.example.hw_product_recycleview.ProductListFragment"
+        android:label="product list"
+        tools:layout="@layout/fragment_product_list" >
+        <action
+            android:id="@+id/action_productListFragment_to_productNameFragment"
+            app:destination="@id/productNameFragment" />
+    </fragment>
+</navigation>

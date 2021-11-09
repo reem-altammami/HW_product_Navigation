@@ -1,4 +1,4 @@
-package model
+package com.example.hw_product_recycleview.model
 
 class Product (val imageSource : Int,
                val name :String,

@@ -1,7 +1,7 @@
-package data
+package com.example.hw_product_recycleview.data
 
 import com.example.hw_product_recycleview.R
-import model.Product
+import com.example.hw_product_recycleview.model.Product
 
 class DataSource {
     fun loadProduct (): List<Product> {
